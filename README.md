@@ -84,7 +84,7 @@ On macOS, the first run of `StreamMicrophone` asks your terminal for microphone 
 - **Streaming billing:** streaming sessions are billed on how long the WebSocket stays open. `StreamMicrophone` always sends `Terminate` and waits for the `Termination` message before it closes.
 - **Sentiment Analysis** supports English audio and runs on AssemblyAI-STT-3.7 and Universal-2.
 - **LLM Gateway model:** `SummarizeWithLlmGateway` uses `claude-sonnet-4-6`. Swap in any ID from the [available models list](https://www.assemblyai.com/docs/llm-gateway/available-models).
-- **Production:** use a [webhook](https://www.assemblyai.com/docs/deployment/webhooks) instead of polling, and keep the API key on your server.
+- **Production:** use a [webhook](https://www.assemblyai.com/docs/pre-recorded-audio/webhooks) instead of polling, and keep the API key on your server.
 
 ## Docs
 
