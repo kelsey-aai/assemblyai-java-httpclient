@@ -1,0 +1,6 @@
+lib/
+out/
+target/
+.env
+.DS_Store
+*.class
